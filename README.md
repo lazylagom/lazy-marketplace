@@ -8,15 +8,17 @@ A curated Claude Code plugin marketplace for developers who want to work smarter
 
 ### 1. Add the Marketplace
 
+- In Claude Code, run:
+  
 ```bash
-# In Claude Code, run:
 /plugin marketplace add lazylagom/lazy-marketplace
 ```
 
 ### 2. Install a Plugin
 
+- In Claude Code, run:
+ 
 ```bash
-# In Claude Code, run:
 /plugin install <plugin-name>
 ```
 
