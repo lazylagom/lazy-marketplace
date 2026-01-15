@@ -14,7 +14,10 @@
       "author": {
         "name": "betheproud"
       },
-      "source": "github:lazylagom/imlazy",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/lazylagom/imlazy.git"
+      },
       "category": "productivity"
     }
   ]
