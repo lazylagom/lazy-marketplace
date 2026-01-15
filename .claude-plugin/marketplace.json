@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "lazy-marketplace",
+  "description": "Claude Code Plugin Marketplace - Stay Lazy, Act Crazy",
+  "owner": {
+    "name": "betheproud",
+    "email": "betheproud@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "imlazy",
+      "description": "A cognitive mode-based agent system that thinks like a developer. Stay Lazy, Act Crazy.",
+      "version": "0.1.0",
+      "author": {
+        "name": "betheproud"
+      },
+      "source": "github:lazylagom/lazy-marketplace",
+      "category": "productivity"
+    }
+  ]
+}

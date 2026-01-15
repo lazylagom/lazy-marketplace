@@ -1,0 +1,29 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Node (if plugins use npm)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local config
+*.local.md
+.claude/settings.local.json
+.env
+.env.local
+
+# Logs
+logs/
+*.log
+
+# Build
+dist/
+build/
