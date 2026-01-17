@@ -1,0 +1,6 @@
+# Local settings
+settings.local.json
+*.local.md
+
+# MCP config
+.mcp.json
