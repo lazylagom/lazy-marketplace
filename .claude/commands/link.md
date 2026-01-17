@@ -48,13 +48,15 @@ GitHub URL: `$ARGUMENTS`
 
 4. **Update README.md**:
    - Find the "Available Plugins" table
+   - The table should have these columns: Plugin | Description | Install | Version | Category
    - **If plugin exists**: Find and update the existing row with new information
    - **If plugin is new**: Add a new row for this plugin
    - Row format:
      ```
-     | **[{name}](https://github.com/{owner}/{repo})** | {description} | {version} | {category} |
+     | **[{name}](https://github.com/{owner}/{repo})** | {description} | `/plugin install {name}` | {version} | {category} |
      ```
    - The plugin name should be a clickable link to the GitHub repository
+   - The Install column should contain the install command in backticks for easy copying
    - Keep the table sorted alphabetically by plugin name
 
 5. **Report success** with:

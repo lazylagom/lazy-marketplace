@@ -24,8 +24,8 @@ A curated Claude Code plugin marketplace for developers who want to work smarter
 
 ## Available Plugins
 
-| Plugin | Description | Version | Category |
-|--------|-------------|---------|----------|
-| **[imlazy](https://github.com/lazylagom/imlazy)** | A cognitive mode-based agent system that thinks like a developer | 0.1.0 | productivity |
-| **[imlazy-fullstack](https://github.com/lazylagom/imlazy-fullstack)** | Senior Full-stack Agent System for Next.js (App Router) development with 4-phase workflow | 0.1.0 | productivity |
+| Plugin | Description | Install | Version | Category |
+|--------|-------------|---------|---------|----------|
+| **[imlazy](https://github.com/lazylagom/imlazy)** | A cognitive mode-based agent system that thinks like a developer | `/plugin install imlazy` | 0.1.0 | productivity |
+| **[imlazy-fullstack](https://github.com/lazylagom/imlazy-fullstack)** | Senior Full-stack Agent System for Next.js (App Router) development with 4-phase workflow | `/plugin install imlazy-fullstack` | 0.1.0 | productivity |
 
