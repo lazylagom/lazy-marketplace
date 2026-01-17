@@ -12,11 +12,11 @@
       "description": "A cognitive mode-based agent system that thinks like a developer. Stay Lazy, Act Crazy.",
       "version": "0.1.0",
       "author": {
-        "name": "betheproud"
+        "name": "imlazy"
       },
       "source": {
-        "source": "github",
-        "repo": "lazylagom/imlazy"
+        "type": "url",
+        "url": "https://github.com/lazylagom/imlazy.git"
       },
       "category": "productivity"
     },
@@ -28,8 +28,8 @@
         "name": "imlazy"
       },
       "source": {
-        "source": "github",
-        "repo": "lazylagom/imlazy-fullstack"
+        "type": "url",
+        "url": "https://github.com/lazylagom/imlazy-fullstack.git"
       },
       "category": "productivity"
     }

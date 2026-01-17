@@ -17,9 +17,23 @@ A curated Claude Code plugin marketplace for developers who want to work smarter
 ### 2. Install a Plugin
 
 - In Claude Code, run:
- 
+
 ```bash
 /plugin install <plugin-name>
+```
+
+### 3. Uninstall
+
+- Remove a plugin:
+
+```bash
+/plugin uninstall <plugin-name>
+```
+
+- Remove the marketplace:
+
+```bash
+/plugin marketplace remove lazy-marketplace
 ```
 
 ## Available Plugins
