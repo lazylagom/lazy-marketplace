@@ -19,6 +19,19 @@
         "url": "https://github.com/lazylagom/imlazy.git"
       },
       "category": "productivity"
+    },
+    {
+      "name": "imlazy-fullstack",
+      "description": "Senior Full-stack Agent System for Next.js (App Router) development with 4-phase workflow: UX/UI Analysis, Schema Design, Implementation Strategy, and Code Generation",
+      "version": "0.1.0",
+      "author": {
+        "name": "imlazy"
+      },
+      "source": {
+        "type": "url",
+        "url": "https://github.com/lazylagom/imlazy-fullstack.git"
+      },
+      "category": "productivity"
     }
   ]
 }
