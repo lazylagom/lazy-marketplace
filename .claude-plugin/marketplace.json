@@ -15,7 +15,7 @@
         "name": "imlazy"
       },
       "source": {
-        "type": "url",
+        "source": "url",
         "url": "https://github.com/lazylagom/imlazy.git"
       },
       "category": "productivity"
@@ -28,7 +28,7 @@
         "name": "imlazy"
       },
       "source": {
-        "type": "url",
+        "source": "url",
         "url": "https://github.com/lazylagom/imlazy-fullstack.git"
       },
       "category": "productivity"
