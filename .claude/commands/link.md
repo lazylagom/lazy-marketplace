@@ -27,7 +27,10 @@ GitHub URL: `$ARGUMENTS`
    - Extract: name, description, version, author, category
 
 3. **Update marketplace.json** at `.claude-plugin/marketplace.json`:
-   - Add a new entry to the `plugins` array with:
+   - First, check if a plugin with the same `name` already exists in the `plugins` array
+   - **If plugin exists**: Update all fields (description, version, author, source, category) with the new values from plugin.json
+   - **If plugin is new**: Add a new entry to the `plugins` array
+   - Plugin entry format:
      ```json
      {
        "name": "<plugin-name>",
@@ -41,19 +44,22 @@ GitHub URL: `$ARGUMENTS`
        "category": "<category>"
      }
      ```
-   - If plugin with same name exists, update it instead
-   - Preserve existing plugins
+   - Preserve all other existing plugins unchanged
 
 4. **Update README.md**:
    - Find the "Available Plugins" table
-   - Add or update the row for this plugin:
+   - **If plugin exists**: Find and update the existing row with new information
+   - **If plugin is new**: Add a new row for this plugin
+   - Row format:
      ```
-     | **{name}** | {description} | {version} | {category} |
+     | **[{name}](https://github.com/{owner}/{repo})** | {description} | {version} | {category} |
      ```
+   - The plugin name should be a clickable link to the GitHub repository
    - Keep the table sorted alphabetically by plugin name
 
 5. **Report success** with:
-   - Plugin name and version added
+   - Indicate whether plugin was **added** (new) or **updated** (existing)
+   - Show plugin name and version
    - Confirm both files were updated
 
 ## Error Handling
