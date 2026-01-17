@@ -47,17 +47,28 @@ GitHub URL: `$ARGUMENTS`
    - Preserve all other existing plugins unchanged
 
 4. **Update README.md**:
-   - Find the "Available Plugins" table
-   - The table should have these columns: Plugin | Description | Install | Version | Category
-   - **If plugin exists**: Find and update the existing row with new information
-   - **If plugin is new**: Add a new row for this plugin
-   - Row format:
+   - Find the "Available Plugins" section
+   - **If plugin exists**: Find and update the existing plugin card with new information
+   - **If plugin is new**: Add a new plugin card
+   - Card format (each plugin should follow this exact format):
+     ```markdown
+     ---
+
+     ### [{name}](https://github.com/{owner}/{repo})
+
+     {description}
+
+     `v{version}` · `{category}`
+
+     ```bash
+     /plugin install {name}
      ```
-     | **[{name}](https://github.com/{owner}/{repo})** | {description} | `/plugin install {name}` | {version} | {category} |
+
+     ---
      ```
-   - The plugin name should be a clickable link to the GitHub repository
-   - The Install column should contain the install command in backticks for easy copying
-   - Keep the table sorted alphabetically by plugin name
+   - The plugin name in the heading should be a clickable link to the GitHub repository
+   - The install command should be in a bash code block for easy copying with GitHub's copy button
+   - Keep plugins sorted alphabetically by name
 
 5. **Report success** with:
    - Indicate whether plugin was **added** (new) or **updated** (existing)
